@@ -10,7 +10,6 @@ embed_model = HuggingFaceEmbeddings(
     encode_kwargs={'device': device, 'batch_size': 32}
 )
 
-----
 from sentence_transformers import HuggingFaceEmbeddings
 from pathlib import Path
 
